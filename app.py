@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import time
+import requests
+from bs4 import BeautifulSoup
 
 # --- アプリの設定 ---
 st.set_page_config(page_title="JRA特化型予想AI - Phase 1", layout="wide")
